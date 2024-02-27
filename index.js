@@ -12,6 +12,10 @@ app.get('/login' , (req,res)=>{
   res.send("This is login page")
 })
 
+app.get('/newf', (req,res)=>{
+    res.send("Introdusing new feature")
+})
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.port}`)
 })
